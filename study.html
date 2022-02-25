@@ -1,4 +1,26 @@
 <!DOCTYPE html>
-<html>
-    
+<html lang="jp">
+    <head>
+        <meta charset="utf-8">
+        <title>Test</title>
+
+        <!-- javascriptFile -->
+        <!-- <script type="text/javascript" src="study.js"></script> -->
+
+        <script type="text/javascript">
+            var $a = false;
+            function test(){
+                if($a == false){
+                alert("名前を入力してください");
+                $a = true;
+                }
+            }
+        </script>
+        <!-- CSSfile -->
+        <link rel = "stylesheet" href="study.css">
+    </head>
+
+    <body>
+        <input type="text" onfocus="test();">
+    </body>
 </html>
