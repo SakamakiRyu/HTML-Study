@@ -2,7 +2,7 @@
 <html lang="jp">
     <head>
         <meta charset="utf-8">
-        <title>Study of a webApplication</title>
+        <title>Study of webApplication</title>
 
         <!-- javascriptFile -->
         <script type="text/javascript" src="study.js"></script>
@@ -12,6 +12,16 @@
     </head>
 
     <body>
-        <input type="text" onfocus="test();">
+        <form>
+            <label for="test">テスト</label>
+            <input
+                type="text"
+                name="test"
+                id="test"
+                oninput="test()" required>
+            <button
+                type="button"
+                id="button">送信</button>
+        </form>
     </body>
 </html>

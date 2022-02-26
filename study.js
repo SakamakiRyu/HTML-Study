@@ -1,7 +1,7 @@
-var $a = false;
+var a = false;
 function test(){
-    if($a == false){
+    if(a == false){
         alert("こんにちは \n $a is true");
-        $a = true;
+        a = true;
     }
 }
