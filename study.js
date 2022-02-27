@@ -1,7 +1,12 @@
-var a = false;
 function test(){
-    if(a == false){
-        alert("こんにちは \n $a is true");
-        a = true;
+    alert("Push!");
+}
+
+function check(){
+    let checkbox = document.getElementById('check');
+    if(checkbox.checked){
+        alert("true");
+    }else{
+        alert("false");
     }
 }

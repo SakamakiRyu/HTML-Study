@@ -2,7 +2,7 @@
 <html lang="jp">
     <head>
         <meta charset="utf-8">
-        <title>Study of webApplication</title>
+        <title>Study of the webApplication</title>
 
         <!-- javascriptFile -->
         <script type="text/javascript" src="study.js"></script>
@@ -12,16 +12,26 @@
     </head>
 
     <body>
-        <form>
-            <label for="test">テスト</label>
-            <input
-                type="text"
-                name="test"
-                id="test"
-                oninput="test()" required>
-            <button
-                type="button"
-                id="button">送信</button>
-        </form>
+        <label for="test">おはようございます</label>
+            <div class="Atest">
+                <input
+                    type="button"
+                    value="Please Push!"
+                    name="button"
+                    id="button"
+                    onclick="test()">
+            </div>
+
+            <div class ="Btest">
+                <label>
+                    <input 
+                        type="checkbox"
+                        name="check"
+                        id="check">チェック</label>
+                    <input
+                        type="button"
+                        value="result"
+                        onclick="check()">
+            </div>
     </body>
 </html>
