@@ -1,12 +1,11 @@
-function test(){
-    alert("Push!");
+let timer = 0;
+
+function Count(){
+    timer++;
 }
 
-function check(){
-    let checkbox = document.getElementById('check');
-    if(checkbox.checked){
-        alert("true");
-    }else{
-        alert("false");
-    }
+function ShowTimer(){
+    alert(timer);
 }
+
+setInterval(Count,1);

@@ -1,37 +1,17 @@
 <!DOCTYPE html>
-<html lang="jp">
+<html lang="ja">
     <head>
         <meta charset="utf-8">
         <title>Study of the webApplication</title>
 
         <!-- javascriptFile -->
         <script type="text/javascript" src="study.js"></script>
-            
         <!-- CSSfile -->
         <link rel = "stylesheet" href="study.css">
     </head>
 
     <body>
-        <label for="test">おはようございます</label>
-            <div class="Atest">
-                <input
-                    type="button"
-                    value="Please Push!"
-                    name="button"
-                    id="button"
-                    onclick="test()">
-            </div>
-
-            <div class ="Btest">
-                <label>
-                    <input 
-                        type="checkbox"
-                        name="check"
-                        id="check">チェック</label>
-                    <input
-                        type="button"
-                        value="result"
-                        onclick="check()">
-            </div>
+        <canvas id="canvas" width="480" height="400"></canvas>
+        <button onclick="ShowTimer()">時間を表示</button>
     </body>
 </html>
