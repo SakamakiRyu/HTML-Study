@@ -11,7 +11,13 @@
     </head>
 
     <body>
-        <canvas id="canvas" width="480" height="400"></canvas>
-        <button onclick="ShowTimer()">時間を表示</button>
+        <label>選択してください</label>
+        <select id = "janken">
+            <option value=1>グー</option>
+            <option value=2>チョキ</option>
+            <option value=3>パー</option>
+        </select>
+
+        <button onclick="Junken()">じゃんけん</button>
     </body>
 </html>
